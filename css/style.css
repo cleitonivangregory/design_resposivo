@@ -1,0 +1,165 @@
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+.trabalhos { width: 13%; }
+
+.icones { width: 3%; height: 3%; }
+
+header {
+	width: 100%;
+	padding: 10px 0px 10px 0; /* cima direito baixo esquerdo*/
+	background: #008B45;
+	box-shadow: 1px 1px 5px #CCC;
+	float: left;
+	position: fixed;
+	z-index: 1000;
+}
+
+#logo {
+	float: left;
+	font: 30px "Open Sans", Tahoma;
+	color: #FFF;
+	text-decoration: none;
+	margin: 10px;
+}
+
+#logo:hover {
+	color: #CFCFCF;
+
+	border-radius: 10px;
+}
+
+nav {
+	float: right;
+	margin: 15px;
+}
+
+nav ul li {
+	display: inline;
+	list-style: none;
+}
+
+nav ul li a {
+	margin: 5px;
+	padding: 10px;
+	color: #FFF;
+	font: 20px Roboto, Tahoma;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+nav ul li a:hover {
+	background: #CFCFCF;
+	color: #FFF;
+	border-radius: 10px;
+}
+
+#btnmenu {
+	float: right;
+	margin: 10px;
+	display: none;
+}
+
+#banner {
+	float: left;
+	width: 100%;
+	margin-top: 80px;
+}
+
+#banner img {
+	width: 100%;
+}
+
+.box {
+	width: 100%;
+	float: left;
+	padding: 70px 0px 70px 0px;
+}
+
+label {
+	font: 1em Roboto, Tahoma, Arial;
+	margin: 15px;
+	display: inline;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+}
+
+h1 {
+	font: 30px Roboto, Tahoma;
+	text-align: center;
+	font-weight: bold;
+	color: #008B45;
+}
+
+p {
+	font: 18px "Open Sans", Verdana;
+	margin: 10px;
+}
+
+footer {
+	background: #9C9C9C;
+	float: left;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	color: #FFF;
+	width: 100%;
+	font: 17px Roboto, Tahoma;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.colunas {
+	width: 48%;
+	float: left;
+	padding-top: 25px;
+}
+
+.colunas img {
+	width: 80%;
+}
+
+.portfolio {
+	width: 24%;
+	float: left;
+}
+
+.redondo {
+	border-radius: 400px;
+}
+
+.form {
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	width: 90%;
+	font: 1em Roboto, Tahoma, Arial;
+}
+
+.form:focus {
+	background: #E8E8E8;
+}
+
+.btn {
+	padding: 15px;
+	background: #008B45;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+textarea {
+	font: 1em Roboto, Tahoma, Arial;
+}

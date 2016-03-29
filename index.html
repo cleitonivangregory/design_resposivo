@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<title>Cleiton Ivan Gregory</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="shortcut icon" href="imgs/mobile.ico">
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" media="(max-width:480px)">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+		<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+	</head>
+	<body id="topo">
+		<header>
+			<a href="#topo" title="Home" id="logo">Cleiton Ivan Gregory</a>
+			<a href="#" id="btnmenu" title="Mostrar Menu">
+				<img src="imgs/menu.png">
+			</a>
+			<nav id="menu">
+				<ul>
+					<li><a href="#topo" title="Home">Home</a></li>
+					<li><a href="#sobre" title="Sobre">Sobre</a></li>
+					<li><a href="#portfolio" title="Portfólio">Portfólio</a></li>
+					<li><a href="#contato" title="Contato">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="banner" class="cycle-slideshow">
+			<img src="imgs/banner1.jpg" alt="Banner 1" title="Banner 1">
+			<img src="imgs/banner2.jpg" alt="Banner 2" title="Banner 2">
+			<img src="imgs/banner3.jpg" alt="Banner 3" title="Banner 3">
+		</div>
+
+		<div id="sobre" class="box">
+			<div class="container">
+				<h1>Sobre </h1>
+				<div class="colunas">
+					<img src="imgs/foto.jpg" alt="sobre" title="sobre" class="redondo">
+				</div>
+				<div class="colunas">
+					<p>
+						Cleiton é um cara nascido nos confins de Sede Nova e veio se aventurar em Chapecó. Formou-se em Sistemas de Informação pela Unoesc onde atualmente cursa uma pós-graduação.
+					</p>
+					<p>
+						Trabalha na Gamatec há 5 anos e lá vem desenvolvendo aplicativos para empresas do mundo todo.
+					</p>
+					<p>
+						Utiliza em seu cotidiano muito C++, HTML e CSS, SQL, JavaScript e o que tiver que aprender e começar a utlizar.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="portfolio" class="box">
+			<div class="container">
+				<h1>Portfólio</h1>
+				<div class="colunas">
+					<a href="http://www.gamatec.com.br/" title="Gamatec" target="_blank">
+						<img src="imgs/gamatec.png" alt="Gamatec" title="Gamatec" class="trabalhos">
+					</a>
+				</div>
+				<div class="colunas">
+					<a href="http://unoesc.edu.br/" title="Unoesc" target="_blank">
+						<img src="imgs/unoesc.jpg" alt="Unoesc" title="Unoesc" class="trabalhos">
+					</a>
+				</div>
+				<div class="colunas">
+					<a href="https://www.facebook.com/" title="Facebook" target="_blank" class="trabalhos">
+						<img src="imgs/facebook.png" alt="Facebook" title="Facebook">
+					</a>
+				</div>
+				<div class="colunas">
+					<a href="https://www.google.com.br/" title="Google" target="_blank">
+						<img src="imgs/google.jpg" alt="Google" title="Google" class="trabalhos">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="contato" class="box">
+			<div class="container">
+				<h1>Contato</h1>
+				<form name="form1" id="form1" action="" method="post">
+					<label for="name">Nome:</label><br>
+					<input type="text" name="name" class="form" placeholder="Digite seu nome" required><br>
+
+					<label for="email">Email:</label><br>
+					<input type="email" name="email" class="form" placeholder="Digite seu email" required><br>
+
+					<label for="message">Mensagem:</label><br>
+					<textarea name="message" class="form" placeholder="Digite sua mensagem" required rows="5"></textarea><br>
+
+					<button type="submit" class="btn">
+						Enviar Mensagem
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			Todos os direitos reservados <i class="fa fa-registered"></i><br>
+			Desenvolvido por Cleiton Ivan Gregory
+			<p>
+				<a href="https://www.facebook.com/karnicagregory" title="Facebook" target="_blank">
+					<img src="imgs/facebook.ico" alt="Facebook" title="Facebook" class="icones">
+				</a>
+				<a href="http://www.twitter.com/karnicagregory" title="Twitter" target="_blank">
+					<img src="imgs/twitter.ico" alt="Twitter" title="Twitter" class="icones">
+				</a>
+				<a href="https://plus.google.com/109137034643151303775/posts" title="Twitter" target="_blank">
+					<img src="imgs/plus.ico" alt="Google Plus" title="Google Plus" class="icones">
+				</a>
+				<a href="https://www.linkedin.com/in/cleiton-ivan-gregory-b5590338" title="Linkedin" target="_blank">
+					<img src="imgs/linkedin.ico" alt="Linkedin" title="Linkedin" class="icones">
+				</a>
+			</p>
+		</footer>
+
+
+
+		<script type="text/javascript">
+			$("#btnmenu").click(function(){
+				$("#menu").toggle();
+			})
+		</script>
+	</body>
+</html>
